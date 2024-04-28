@@ -34,7 +34,7 @@ Verify failed attempt
     Element Text Should Be      css:li.alert.alert-danger    Authentication failed.
 
 Logout from the website
-    Click Link     link:Sign out
+    Click Element    css:.logout.hidden-sm-down
 
 Exit the browser
     Close Browser
