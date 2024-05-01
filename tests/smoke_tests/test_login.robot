@@ -1,11 +1,11 @@
 *** Settings ***
 Documentation    Test online shop login functionality
 Library          SeleniumLibrary
-Resource         ../resources/login_keywords.robot
+Resource         ../../resources/common.robot
 
 *** Test Cases ***
-Login With Valid Credentials and then Logout
-    [Documentation]    User can successfully login with valid credentials and then log out
+Login with valid credentials
+    [Documentation]    User can successfully login with valid credentials
     [Tags]    Smoke
     Open online shop website
     Click SignIn button
