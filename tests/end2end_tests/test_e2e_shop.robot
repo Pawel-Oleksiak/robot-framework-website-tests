@@ -1,8 +1,8 @@
 *** Settings ***
 Documentation    Test e2e shopping procedure
 Library          SeleniumLibrary
-Resource         ../resources/login_keywords.robot
-Resource         ../resources/shopping_procedure_keywords.robot
+Resource         ../../resources/common.robot
+Resource         ../../resources/shopping_procedure_keywords.robot
 
 *** Test Cases ***
 Add product to the shopping cart and go through the shopping procedure
@@ -25,4 +25,3 @@ Add product to the shopping cart and go through the shopping procedure
     Take a screenshot of confirmed order
     Logout from the website
     Exit the browser
-
