@@ -38,3 +38,6 @@ Logout from the website
 
 Exit the browser
     Close Browser
+
+Navigate to profile
+    Click Element    xpath://*[@id="_desktop_user_info"]/div/a[2]/span
