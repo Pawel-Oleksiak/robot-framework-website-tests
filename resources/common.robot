@@ -41,3 +41,6 @@ Exit the browser
 
 Navigate to profile
     Click Element    xpath://*[@id="_desktop_user_info"]/div/a[2]/span
+
+Navigate to Contact us form
+    Click Element    id:contact-link
