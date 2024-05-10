@@ -13,22 +13,20 @@ To run tests locally, follow these steps:
 1. Clone this repository to your local machine
 2. Make sure Python is installed
 3. Install Robot Framework
-
-
+# 
     pip install robotframework
+   
 
-4. Install SeleniumLibrary
-
-
+5. Install SeleniumLibrary
+# 
     pip install robotframework-seleniumlibrary
 
 
-
-5. Navigate to root directory of the repository
-6. Run the tests using the following command:
-
-
+6. Navigate to root directory of the repository
+7. Run the tests using the following command:
+# 
     robot --outputdir results tests
+   
 
 The above command will run all the tests and create the directory for the outcome.
 
