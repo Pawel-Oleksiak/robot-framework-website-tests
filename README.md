@@ -13,10 +13,16 @@ To run tests locally, follow these steps:
 2. Make sure Python is installed
 3. Install Robot Framework and SeleniumLibrary
 
-
-    '''pip install robotframework{copy}
-
-    '''pip install robotframework-seleniumlibrary{copy}
+```
+function test() {
+  console.log("pip install robotframework");
+}
+```
+```
+function test() {
+  console.log("pip install robotframework-seleniumlibrary");
+}
+```
 
 
 4. Navigate to root directory of the repository
@@ -25,6 +31,10 @@ To run tests locally, follow these steps:
 (As of the day 10.05.2024, the registration test is hard coded it is best to put new data to register new acc, otherwise the test will fail. It will soon be changed.)
 
 
-     '''robot --outputdir results tests {copy}
+```
+function test() {
+  console.log("robot --outputdir results tests");
+}
+```
 
 The above command will run all the tests and create the directory for the outcome.
