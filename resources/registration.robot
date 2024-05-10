@@ -3,10 +3,10 @@ Documentation    Common Keywords
 Library          SeleniumLibrary
 
 *** Variables ***
-${first-name}    Michelle
-${last-name}     Karrab
-${email}         barrack@luli.usa
-${password}      usanumba1
+${first-name}    Tobias
+${last-name}     Dancing
+${email}         toby@fake.cu
+${password}      ninenineone
 
 *** Keywords ***
 Click No account? Create one here link
@@ -31,3 +31,6 @@ Click Save button
 
 Check logged in user name
     Element Text Should Be    xpath://*[@id="_desktop_user_info"]/div/a[2]/span    ${first-name} ${last-name}
+    
+Verify email has been used
+    Element Text Should Be    css:.alert.alert-danger    The email is already used, please choose another one or sign in
